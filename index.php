@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-        <?php include('includes/metaTags.php'); ?> 
+        <?php include('includes/metaTags.php'); ?>           
     </head>
 
     <body id="home">
@@ -46,6 +46,7 @@
         </div>
         <!-- /container E-->
         <?php include('includes/scripts.php'); ?> 
+   
     </body>
 
 </html>

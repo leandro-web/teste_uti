@@ -12,10 +12,23 @@
                 <button type="button" class="btn btn-2 btn-block" data-toggle="modal" data-target="#product_view_<?= $a; ?>">Veja +</button>
             </div>            
         </div>
-        <?php } ?>        
+        <?php } ?>    
+        
+        <div id="produtosEscondidos" style="display:none;">
+            <?php for($a=1; $a<=8; $a++){ ?>
+            <div class="col-md-3">
+                <h3>Lorem Ipsum Dolor Sit Amet</h3>            
+                <img src="assets/img/produtos/<?= $a; ?>.jpg" alt="Imagem do produto" class="img-responsive img-item">
+                <div class="btn-ground text-center">
+                    <button type="button" class="btn btn-2 btn-block" data-toggle="modal" data-target="#product_view_<?= $a; ?>">Veja +</button>
+                </div>            
+            </div>
+            <?php } ?> 
+        </div>
+            
     </div>
     <div class="col-md-2 col-md-offset-5 ">
-        <a href="#" class="btn btn-1 btn-block">+ produtos</a>
+        <a id="maisProdutos" class="btn btn-1 btn-block">+ produtos</a>
     </div>
     <div class="clearfix"></div>
     <div class="espaco-50"></div>
