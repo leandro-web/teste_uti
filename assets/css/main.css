@@ -186,7 +186,10 @@ h3{
     border-radius: 0px 0px 10px 10px;
     
 }
-.img-item{border-radius: 10px 10px 0px 0px}
+.img-item{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
 
 .circle-icons{
     background-color: #66c6b2;
@@ -232,3 +235,20 @@ h3{
 }
 
 .bg-cor{background-color: #66c6b2;}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{background-color: #66c6b2;}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+@media screen and (max-width: 892px) {
+    .img-noticia{
+        width: 100%;
+    }
+    .itens-footer{
+        text-align: center;
+    }
+}

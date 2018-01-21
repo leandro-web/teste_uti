@@ -6,7 +6,7 @@
         <?php for($a=1; $a<=6; $a++){ ?>
         <div class="col-md-6 nopadding blc-noticia">
             <div class="col-md-4 nopadding">
-                <img class="img-responsive img-rounded" src="assets/img/noticias/<?= $a; ?>.jpg">
+                <img class="img-responsive img-noticia img-rounded" src="assets/img/noticias/<?= $a; ?>.jpg">
             </div>
             <div class="col-md-8">
                 <h3 class="texto-escuro">Lorem Ipsum Dolor Sit Amet Consectetur unde omnis</h3>
