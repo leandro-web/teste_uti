@@ -4,7 +4,7 @@
 <meta name="description" content="Página de teste para vaga de desenvolvedor web na agência UTI das idéias">
 <meta name="keywords" content="Leandro, teste, programador, uti das idéias">
 <meta name="author" content="Leandro Rafael de Oliveira">
-
+<link href="http://utidasideias.com.br/assets/lay-img/icon.png" rel="shortcut icon" type="image/png">
 <title>Teste UTI da idéias</title>
 <!-- CSS Bootstrap -->
 <link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel="stylesheet">
