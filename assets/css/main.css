@@ -1,0 +1,232 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+/*CAROUSEL*/
+body { overflow-x: hidden; }
+
+.main-text {
+    position: absolute;
+    top: 100px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.carousel-btns {
+    margin-top: 2em;
+}
+
+.carousel-btns .btn {
+    width: 150px;
+}
+
+.carousel-inner .imgOverlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+/*CONTROL*/
+
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+    left: 0;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    margin: 0 1px;
+    border: 2px solid #fff;
+}
+
+.carousel-indicators .active {
+    background-color: #28ace2;
+    border-color: #28ace2;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left,
+.carousel-control .icon-right,
+.carousel-control .fa-chevron-right {
+    border-radius: 50px;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+    left: 30px;
+    padding-top: 10px;
+}
+
+.carousel-control .icon-right,
+.carousel-control .fa-chevron-right {
+    right: 30px;
+    padding-top: 10px;
+}
+
+/* lista de produtos */
+
+.product_view .modal-dialog {
+    max-width: 800px;
+    width: 100%;
+}
+
+.pre-cost {
+    text-decoration: line-through;
+    color: #a5a5a5;
+}
+
+.space-ten {
+    padding: 10px 0;
+}
+
+/* carousel de parceiros */
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+
+.carousel-control {
+    height: 40px;
+    width: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 280px;
+}
+
+.carousel-control.right, {
+    right: -12px;
+    color: black;
+    background-color: white;
+    opacity: 1;
+    text-shadow: none;
+    border: none;
+    right: 10px;
+    top:200px;
+}
+
+.carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -10px;
+    margin-right: -19px;
+}
+
+.carousel-indicators li {
+    border: 1px solid #cecece;
+}
+
+.carousel-indicators .active {
+    background: #66c6b2;
+    width: 20px;
+    height: 20px;
+}
+
+/* Cores e ajustes do bootstrap */
+
+.navbar-default {
+    height: 100px;
+    background-color: #66c6b2;
+    border-bottom: 5px solid #49c3c9;
+}
+
+.navbar-right {
+    padding-top: 23px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: Helvetica;
+    color: #fff;
+}
+
+.carousel-tema {
+    padding: 100px 0px 30px 0px;
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 17px;
+    color: #666;
+    text-align: justify;
+}
+
+h1, h2{
+    color: #66c6b2;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px 0px;
+}
+h3{
+    color: #66c6b2;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0px 10px 0px;
+}
+
+.btn-1{
+    margin-top: 50px;
+    background-color: #66c6b2;
+    color: #fff;
+    padding: 6px 40px;
+    border-radius: 16px;
+    
+}
+
+.btn-2{
+    margin-top: 0px;
+    background-color: #66c6b2;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.img-item{border-radius: 10px 10px 0px 0px}
+
+.circle-icons{
+    background-color: #66c6b2;
+    padding: 10px 13px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circle-icons i{
+    color: #fff;
+}
+.bg-2{background-color: #f2f2f2;}
+.bg-3{background-color: #66c6b2;}
+
+.espaco-10{margin-top: 10px;}
+.espaco-20{margin-top: 20px;}
+.espaco-50{margin-top: 50px;}
+
+.nopadding {
+   padding: 0 !important;
+}
+.texto-escuro{color: #585959;}
+.texto-branco{color: #ffffff;}
+
+.redes-noticia{
+    color: #66c6b2; 
+    font-size: 18px;
+    margin: 20px 5px;
+}
+
+.blc-noticia{margin-bottom: 25px;}
+
+.ctr-2{
+    margin-top: 35px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #66c6b2;
+}
+.lista-footer li{
+     color: #fff;
+    padding: 5px;
+}
