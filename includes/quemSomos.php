@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="float-left hidden-sm">
-                    <img src="assets/img/quem_somos.jpg" alt="Quem Somos">
+                    <img class="img-responsive" src="assets/img/quem_somos.jpg" alt="Quem Somos">
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
