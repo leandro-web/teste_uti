@@ -24,11 +24,7 @@
         });
     });
 
-    $(document).ready(function() {
-        $("#maisProdutos").click(function() {
-            $("#produtosEscondidos").toggle(1000);
-        });
-
+    $(document).ready(function() { 
         $("#maisNoticias").click(function() {
             $("#NoticiasEscondidos").toggle(1000);
         });

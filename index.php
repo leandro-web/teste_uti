@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app="testeUTI">
 
     <head>
         <?php include('includes/metaTags.php'); ?>           

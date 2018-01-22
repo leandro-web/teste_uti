@@ -3,32 +3,21 @@
     <h1 class="text-center">Produtos</h1>
     <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
     <div class="espaco-50"></div>
-    <div class="row">
-        <?php for($a=1; $a<=8; $a++){ ?>
-        <div class="col-md-3 col-sm-6 col-xs-6">
-            <h3>Lorem Ipsum Dolor Sit Amet</h3>            
-            <img src="assets/img/produtos/<?= $a; ?>.jpg" alt="Imagem do produto" class="img-responsive img-item">
-            <div class="btn-ground text-center">
-                <button type="button" class="btn btn-2 btn-block" data-toggle="modal" data-target="#product_view_<?= $a; ?>">Veja +</button>
-            </div>            
-        </div>
-        <?php } ?>    
+    
+    <div class="row" ng-controller="listarDados">
         
-        <div id="produtosEscondidos" style="display:none;">
-            <?php for($a=1; $a<=8; $a++){ ?>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <h3>Lorem Ipsum Dolor Sit Amet</h3>            
-                <img src="assets/img/produtos/<?= $a; ?>.jpg" alt="Imagem do produto" class="img-responsive img-item">
+            <div class="col-md-3 col-sm-6 col-xs-6" ng-repeat="dado in dados">
+                <h3>{{dado.nome}}</h3>            
+                <img src="assets/img/produtos/{{dado.foto}}" alt="Imagem do produto" class="img-responsive img-item">
                 <div class="btn-ground text-center">
                     <button type="button" class="btn btn-2 btn-block" data-toggle="modal" data-target="#product_view_<?= $a; ?>">Veja +</button>
                 </div>            
             </div>
-            <?php } ?> 
-        </div>
-            
+         
     </div>
+    
     <div class="col-md-2 col-md-offset-5 ">
-        <a id="maisProdutos" class="btn btn-1 btn-block">+ produtos</a>
+        <a class="btn btn-1 btn-block">+ produtos</a>
     </div>
     <div class="clearfix"></div>
     <div class="espaco-50"></div>
