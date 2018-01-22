@@ -5,7 +5,7 @@
     <div class="espaco-50"></div>
     <div class="row">
         <?php for($a=1; $a<=8; $a++){ ?>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 col-xs-6">
             <h3>Lorem Ipsum Dolor Sit Amet</h3>            
             <img src="assets/img/produtos/<?= $a; ?>.jpg" alt="Imagem do produto" class="img-responsive img-item">
             <div class="btn-ground text-center">
@@ -16,7 +16,7 @@
         
         <div id="produtosEscondidos" style="display:none;">
             <?php for($a=1; $a<=8; $a++){ ?>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6 col-xs-6">
                 <h3>Lorem Ipsum Dolor Sit Amet</h3>            
                 <img src="assets/img/produtos/<?= $a; ?>.jpg" alt="Imagem do produto" class="img-responsive img-item">
                 <div class="btn-ground text-center">

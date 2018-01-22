@@ -7,11 +7,11 @@
         </div>
         <div class="col-md-2 col-sm-12">
             <ul class="text-right list-group list-unstyled itens-footer lista-footer">
-                <a href="#"><li>HOME</li></a>
-                <a href="#"><li>QUEM SOMOS</li></a>
-                <a href="#"><li>PRODUTOS</li></a>
-                <a href="#"><li>NOTÍCIAS</li></a>
-                <a href="#"><li>CONTATO</li></a>
+                <li><a class="scroll texto-branco" href="#home">HOME</a></li>
+                <li><a class="scroll texto-branco" href="#quem_somos">QUEM SOMOS</a></li>
+                <li><a class="scroll texto-branco" href="#produtos">PRODUTOS</a></li>
+                <li><a class="scroll texto-branco" href="#noticias">NOTÍCIAS</a></li>
+                <li><a href="" class=" texto-branco" data-toggle="modal" data-target="#contato" data-original-title>CONTATO</a></li>
             </ul>
         </div>
         <div class="col-md-12">

@@ -15,10 +15,10 @@
             <?php } ?>
         </div>
 
-        <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+        <a class="left carousel-control bt-carousel" href="#themeSlider" data-slide="prev">
             <span class="fa fa-chevron-left"></span>
         </a>
-        <a class="right carousel-control"href="#themeSlider" data-slide="next">
+        <a class="right carousel-control bt-carousel"href="#themeSlider" data-slide="next">
             <span class="fa fa-chevron-right"></span>
         </a>
     </div>

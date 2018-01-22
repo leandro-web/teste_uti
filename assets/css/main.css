@@ -208,11 +208,10 @@ h3{
 .espaco-20{margin-top: 20px;}
 .espaco-50{margin-top: 50px;}
 
-.nopadding {
-   padding: 0 !important;
-}
+
 .texto-escuro{color: #585959;}
-.texto-branco{color: #ffffff;}
+.texto-branco{color: #ffffff; text-decoration: none;}
+.texto-branco:hover{color: #ffffff; text-decoration: none;}
 
 .redes-noticia{
     color: #66c6b2; 
@@ -250,5 +249,13 @@ h3{
     }
     .itens-footer{
         text-align: center;
+    }
+    .bt-carousel{
+        display: none;
+    }
+}
+@media screen and (min-width: 1092px) {
+    .nopadding {
+        padding: 0 !important;
     }
 }
