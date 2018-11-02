@@ -13,8 +13,8 @@
             <?php include('includes/quemSomos.php'); ?> 
         </div>
         <!-- /container A--> 
-        
-        <!-- container B-->   
+        <p>teste</p>
+        <!-- container B -->   
         <div class="row bg-2">
             <div class="container">
                 <?php include('includes/produtos.php'); ?>
