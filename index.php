@@ -13,7 +13,7 @@
             <?php include('includes/quemSomos.php'); ?> 
         </div>
         <!-- /container A--> 
-        <p>teste</p>
+        <p>teste 2</p>
         <!-- container B -->   
         <div class="row bg-2">
             <div class="container">
